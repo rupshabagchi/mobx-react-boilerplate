@@ -1,4 +1,4 @@
-import { observable } from "mobx";
+import { observable } from "mobx"
 
 export default class TodoModel {
   id = Math.random();
@@ -6,6 +6,6 @@ export default class TodoModel {
   @observable finished = false;
 
   constructor(title) {
-    this.title = title;
+      this.title = title
   }
 }
