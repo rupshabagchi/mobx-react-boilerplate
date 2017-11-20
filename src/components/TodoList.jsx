@@ -6,7 +6,7 @@ import Todo from "./Todo"
 
 @observer
 class TodoList extends Component {
-  @observable newTodoTitle = "";
+  @observable newTodoTitle = ""
 
   render() {
       return (
