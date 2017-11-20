@@ -8,14 +8,14 @@ Supports ES6 and JSX compilation and linting through babel, and testing through 
 * For a typescript based boilerplate, see [`mobx-react-typescript-boilerplate`](https://github.com/mobxjs/mobx-react-typescript-boilerplate)
 
 
-### Run the example
+### To run the example
 
 ```
 yarn
 yarn start
 ```
 
-### To test
+### To run test
 
 ```
 yarn jest
