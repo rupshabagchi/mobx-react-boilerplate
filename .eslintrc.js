@@ -22,6 +22,7 @@ module.exports = {
             "error",
             4
         ],
+        'react/prop-types': 'off',
         "linebreak-style": 0,
         "semi": [
             "error",

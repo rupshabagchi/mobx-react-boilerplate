@@ -2,7 +2,7 @@ import {TodoListModel} from "../models/TodoListModel"
 
 describe("TodoStore", () => {
     it("creates new todos", () => {
-        const store = new TodoListModel
+        const store = new TodoListModel()
         store.addTodo("todo1")
         store.addTodo("todo2")
         expect(store.todos.length).toBe(2)

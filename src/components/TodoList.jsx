@@ -5,7 +5,7 @@ import {observer} from "mobx-react"
 import Todo from "./Todo"
 
 @observer
-class TodoList extends React.Component {
+class TodoList extends Component {
   @observable newTodoTitle = "";
 
   render() {
@@ -18,11 +18,7 @@ class TodoList extends React.Component {
               </form>
               <hr/>
               <ul>
-                  {this
-                      .props
-                      .store
-                      .todos
-                      .map(todo => (<Todo todo={todo} key={todo.id}/>))}
+                  {this.props.store.todos.map(todo => (<Todo todo={todo} key={todo.id}/>))}
               </ul>
         Tasks left: {this.props.store.unfinishedTodoCount}
           </div>
@@ -36,10 +32,7 @@ class TodoList extends React.Component {
 
   @action
   handleFormSubmit = e => {
-      this
-          .props
-          .store
-          .addTodo(this.newTodoTitle)
+      this.props.store.addTodo(this.newTodoTitle)
       this.newTodoTitle = ""
       e.preventDefault()
   };
