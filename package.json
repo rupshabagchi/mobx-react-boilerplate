@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --open",
     "lint": "eslint src",
-    "test:watch": "yarn jest --watch"
+    "test:watch": "jest --config=jest.config.json"
   },
   "repository": {
     "type": "git",
