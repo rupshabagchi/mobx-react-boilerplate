@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1511176739469" clover="3.2.0">
-  <project timestamp="1511176739469" name="All files">
+<coverage generated="1511176884024" clover="3.2.0">
+  <project timestamp="1511176884024" name="All files">
     <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0" elements="7" coveredelements="0" complexity="0" loc="3" ncloc="3" packages="1" files="2" classes="2">
       <file name="TodoListModel.js" path="C:\Users\rupsha.bagchi\Documents\mobx-react-boilerplate\src\models\TodoListModel.js">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
